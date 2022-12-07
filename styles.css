@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+}
+h1, h2 { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    text-align: center;
+    color: white;
+}
+h3 { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    color: white;
+    font-size: 30px;
+}
+h4 { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    left: 11%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .select-menu{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: rgb(8, 8, 8);
+  }
+  button{
+    font-family:"My Custom Font", Verdana, Tahoma ;
+    background-color: chocolate;
+    font-size: 50px;
+  }
+body{
+    background-color: chocolate;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+.season1{
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+table,tr {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    font-size: 30px;
+  }
+  .record{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px
+}
+.homebutton{
+    position:absolute; top:0; right:0;
+}

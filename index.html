@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>S tier MCCI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-image"></div>
+  
+
+    <div class="bg-text">
+      <h1 style="text-decoration-line:underline;">S tier MCCI</h1>
+      <br><br>
+      <div class="select-menu">
+        <button onclick="sendRanked()">Ranked</button>
+        <br><br><button onclick="sendTournament()">Tournaments</button>
+        <br><br><button onclick="sendStaff()">Staff</button>
+        <br><br><button onclick="sendRecords()">Records</button>
+
+      </div>
+    </div> 
+    <script>
+        function sendRanked() {
+          window.location.href="http://127.0.0.1:5500/ranked.html";  
+        }
+        function sendTournament() {
+          window.location.href="http://127.0.0.1:5500/tournaments.html";  
+        }
+        function sendStaff() {
+          window.location.href="http://127.0.0.1:5500/staff.html";  
+        }
+        function sendRecords() {
+          window.location.href="http://127.0.0.1:5500/records.html";  
+        }
+      </script>
+</body>
